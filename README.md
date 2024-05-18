@@ -41,11 +41,11 @@ npm install
 ```
 # Start the Next.js client
 cd client
-npm run dev
+npm run dev || yarn dev
 
 # Start the Socket.IO server (in a new terminal)
 cd ../server
-npm start
+npm start  || yarn server
 ```
 
 4. Open your browser and navigate to `http://localhost:3000` to access the drawing application.
